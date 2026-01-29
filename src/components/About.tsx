@@ -51,10 +51,20 @@ const About = () => {
 
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/3961132/pexels-photo-3961132.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="/graphic.PNG"
               alt="Modern office workspace"
               className="aspect-square w-full object-cover rounded-lg"
             />
+            <section className="relative">
+        <video
+          controls
+          className="w-full max-h-[70vh] object-cover"
+          poster="/segu.jpg"
+        >
+          <source src="/segulavid.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-orange-500 opacity-20 rounded-lg -z-10"></div>
           </div>
         </div>
