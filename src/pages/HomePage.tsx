@@ -32,7 +32,14 @@ const HomePage = () => {
               <br />
               <span className="text-white">PROJECTS & DESIGNS</span>
             </h1>
-
+               <div className="relative animate-slide-in-right">
+              <img
+                src="/segu.jpg"
+                alt="Modern office workspace"
+                className="aspect-square w-full object-cover rounded-lg"
+              />
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-orange-500 opacity-20 rounded-lg -z-10"></div>
+            </div>
             <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 font-light max-w-4xl mx-auto">
               Strategic Branding, Signage & Visual Communication
             </p>
