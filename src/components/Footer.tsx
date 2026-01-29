@@ -18,6 +18,18 @@ const Footer = () => {
               <p className="text-gray-400 leading-relaxed">
                 Strategic Branding, Signage & Visual Communication
               </p>
+              <div className="space-y-4">
+            <h3 className="text-xl font-bold text-white">Leadership</h3>
+            <p className="text-gray-400">CEO: Eugene Mudila</p>
+            <p className="text-gray-400">Director: Chama Bwalya</p>
+          </div>
+
+  <div className="space-y-4">
+            <h3 className="text-xl font-bold text-white">Contact & Locations</h3>
+            <p className="text-gray-400">Pretoria: 066 222 2656</p>
+            <p className="text-gray-400">Johannesburg: 060 456 3045</p>
+            <p className="text-gray-400">Lusaka, Zambia: +260 97 807 9443</p>
+          </div>
               <div className="pt-4">
                 <p className="text-orange-500 font-medium mb-2">Greenhills, Randfontein, South Africa</p>
                 <p className="text-gray-400">info@segullah.co.za</p>
