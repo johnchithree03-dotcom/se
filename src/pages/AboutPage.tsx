@@ -16,7 +16,13 @@ const AboutPage = () => {
                   Projects & Designs
                 </h1>
               </div>
-
+                  <section className="relative">
+        <video   
+        >
+           <source src="/segulavid.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p className="text-lg">
                   Based in <span className="text-orange-500 font-medium">Greenhills, Randfontein, South Africa</span>, we are a professional signage and branding company serving local and regional businesses.
@@ -53,7 +59,7 @@ const AboutPage = () => {
 
             <div className="relative animate-slide-in-right">
               <img
-                src="public/segu.jpg"
+                src="/graphic.PNG"
                 alt="Modern office workspace"
                 className="aspect-square w-full object-cover rounded-lg"
               />
