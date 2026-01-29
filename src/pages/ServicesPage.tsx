@@ -164,7 +164,7 @@ const ServicesPage = () => {
               </div>
               <div>
                 <img
-                  src="/grapgic.PNG"
+                  src="/graphic.PNG"
                   alt="Graphic design showcase"
                   className="w-full rounded-lg"
                 />
