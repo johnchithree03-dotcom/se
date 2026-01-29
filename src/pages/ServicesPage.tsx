@@ -100,7 +100,7 @@ const ServicesPage = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-12 animate-slide-in-left">
               <div>
                 <img
-                  src="/branding-image.jpg"
+                  src="/branding1.PNG"
                   alt="Branding solutions showcase"
                   className="w-full rounded-lg"
                 />
@@ -164,7 +164,7 @@ const ServicesPage = () => {
               </div>
               <div>
                 <img
-                  src="public/segu.jpg"
+                  src="/grapgic.PNG"
                   alt="Graphic design showcase"
                   className="w-full rounded-lg"
                 />
